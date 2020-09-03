@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <Debugging>
+    <DebugDefaults>
+      <!-- Values of OFF, Window, Console, or File -->
+      <Debug>OFF</Debug>
+      <DebugLevel>3</DebugLevel>
+    </DebugDefaults>
+    <DebugMethods>
+      <DebugMethod type="Window">Com.HP.App.HPTools.HPDebug.DebugWin</DebugMethod>
+      <DebugMethod type="Console">Com.HP.App.HPTools.HPDebug.DebugStdOut</DebugMethod>
+      <DebugMethod type="File">Com.HP.App.HPTools.HPDebug.DebugLogFile</DebugMethod>
+    </DebugMethods>
+  </Debugging>
+  <ValueList>
+    <Value name="EnumerateFromFile" dataType="boolean">false</Value>
+    <Value name="AppName" dataType="string">StatusAlerts</Value>
+    <Value name="MaxWorkingSet" dataType="intPtr">-1</Value>
+    <Value name="MinWorkingSet" dataType="intPtr">-1</Value>
+    <Value name="ConnectionTimeout" dataType="integer">6000</Value>
+    <Value name="PhoneBookConnectionTimeout" dataType="integer">120000</Value>
+    <Value name="ConnectionPollRate" dataType="integer">120000</Value>
+    <!-- Time value for how long DesktopAlerts will stay at full opacity (in Seconds) -->
+    <Value name="DesktopAlertDuration" dataType="integer">1</Value>
+    <!-- Time value for how long DesktopAlerts takes to reach full opacity (in Millisecond) -->
+    <Value name="DesktopAlertFadeInterval" dataType="integer">111</Value>
+    <Value name="AppVersion" dataType="string">070.040.00169</Value>
+    <Value name="useGradientHeaders" dataType="boolean">false</Value>
+    <Value name="mastHeadLight_RGB" dataType="string">0,95,153</Value>
+    <Value name="mastHeadDark_RGB" dataType="string">63,140,0</Value>
+    <Value name="trayHeaderTop_RGB" dataType="string">102,102,102</Value>
+    <Value name="trayHeaderBottom_RGB" dataType="string">204,204,204</Value>
+    <Value name="ScanAppName" dataType="string">hppscan3.exe</Value>
+    <Value name="CUEScanAppName" dataType="string">hpqkygrp.exe</Value>
+    <Value name="NativeAppFolder" dataType="string">NativeApps</Value>
+    <Value name="RunKeyName" dataType="string">StatusAlerts</Value>
+    <Value name="DefaultRunArguments" dataType="string">/enum:on /tmcp:on /alerts:on /notifications:on /fl:on /fr:on /appData:on</Value>
+    <Value name="WMIDelayTimes" dataType="string">5,19</Value>
+    <Value name="WMIDelayMinutes" dataType="integer">0</Value>
+    <Value name="WMIDelayLength" dataType="integer">2</Value>
+    <Value name="WMIEnumPollRateDefault" dataType="string">120</Value>
+    <Value name="WMIEnumPollRateUIOpen" dataType="string">10</Value>
+    <!-- DfA (Trigger Marketing default values -->
+    <Value name="CeementTrace" dataType="integer">0</Value>
+    <Value name="Debug" dataType="integer">0</Value>
+    <Value name="DfABaseURL" dataType="string">cots.rssx</Value>
+    <Value name="DfAUrlPath" dataType="string">/cots/get_offers</Value>
+    <Value name="TMOfferPollRate" dataType="integer">3600000</Value>
+    <!--IBApp Live Url = www.hp.com/go/tonercheck  Test Url = http://www.hp.com/hpocv20/test/app-download.html-->
+    <Value name="IBAppUrl" dataType="string">http://www.hp.com/go/tonercheck</Value>
+    <Value name="OcvReportFraudURL" dataType="string">http://www.hp.com/go/anticounterfeit</Value>
+    <Value name="OcvAlertsDelay" dataType="integer">1200000</Value>
+  </ValueList>
+  <DfA>
+    <CarePack appID="191d47e5-d20f-47e2-b37b-f4c1b1145d57">
+      <RegKey hive="HKCU">Software\Hewlett-Packard</RegKey>
+    </CarePack>
+    <ManagementApplication name="Active Directory">
+      <RegKey hive="HKCU">Software\Policies\Hewlett-Packard\HP-IPG-CSA</RegKey>
+    </ManagementApplication>
+    <ManagementApplication name="Custom">
+      <RegKey hive="HKCU">Software\Policies\Hewlett-Packard\HP-IPG-CSA\$$HostID$$</RegKey>
+    </ManagementApplication>
+    <ManagementApplication name="MPA">
+      <RegKey hive="HKCU">Software\Policies\Hewlett-Packard\HP Print Settings\$$HostID$$</RegKey>
+    </ManagementApplication>
+    <ManagementApplication name="WJA">
+      <RegKey hive="HKCU">Software\Policies\Hewlett-Packard\HP Print Settings\$$HostID$$</RegKey>
+    </ManagementApplication>
+    <ManagementApplication name="DMC">
+      <RegKey hive="HKCU">Software\Policies\Hewlett-Packard\HP Print Settings\$$HostID$$</RegKey>
+    </ManagementApplication>
+    <ManagementApplication name="Supply Application">
+      <RegKey hive="HKCU">Software\Policies\Hewlett-Packard\HP Print Settings\$$HostID$$</RegKey>
+    </ManagementApplication>
+  </DfA>
+  <ViewList>
+    <Name>BorisView</Name>
+    <Name>AccessibilityView</Name>
+    <Name>CUEView</Name>
+  </ViewList>
+  <DynamicAssemblies>
+    <DynamicXmlAssembly>DynXmlObjects</DynamicXmlAssembly>
+  </DynamicAssemblies>
+  <OCV_Checkerspot_URL></OCV_Checkerspot_URL>
+</Manifest>

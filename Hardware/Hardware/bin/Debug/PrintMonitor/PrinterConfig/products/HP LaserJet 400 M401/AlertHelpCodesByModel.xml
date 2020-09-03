@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AlertHelpCodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Model name="HP LaserJet 400 M401a, HP LaserJet 400 M401d, HP LaserJet 400 M401n, HP LaserJet 400 M401dn, HP LaserJet 400 M401dw">
+    <Value name="outputBinFull" dataType="string">outputBinFull</Value>
+    <Value name="insufficientMemory" dataType="string">insufficientMemory</Value>
+    <Value name="closeDoorOrCover" dataType="string">closeDoorOrCover</Value>
+    <Value name="printerMispick" dataType="string">printerMispick</Value>
+    <Value name="printerError" dataType="string">printerError</Value>
+    <Value name="jamInPrinter" dataType="string">jamInPrinter</Value>
+    <Value name="trayEmptyOrOpen" dataType="string">trayEmptyOrOpen</Value>
+    <Value name="unexpectedSizeInTray" dataType="string">unexpectedSizeInTray</Value>
+    <Value name="paperPrompt" dataType="string">paperPrompt</Value>
+    <Value name="tonerSealInPlace" dataType="string">tonerSealInPlace</Value>
+    <Value name="cartridgeMissing" dataType="string">cartridgeMissing</Value>
+    <Value name="incompatibleConsumable" dataType="string">incompatibleConsumable</Value>
+    <Value name="incorrectCartridge" dataType="string">incorrectCartridge</Value>
+    <Value name="missingMemory" dataType="string">missingMemory</Value>
+    <Value name="defectiveMemory" dataType="string">defectiveMemory</Value>
+    <Value name="usedConsumable" dataType="string">usedConsumable</Value>
+    <Value name="replaceCartridgeOut" dataType="string">replaceCartridgeOut</Value>
+    <Value name="cartridgeVeryLow" dataType="string">cartridgeVeryLow</Value>
+    <Value name="cartridgeLow" dataType="string">cartridgeLow</Value>
+    <Value name="mpaccoActive" dataType="string">mpaccoActive</Value>
+    <Value name="manuallyFeed" dataType="string">manuallyFeed</Value>
+    <Value name="unsupportedCartridge" dataType="string">unsupportedCartridge</Value>
+  </Model>
+</AlertHelpCodes>

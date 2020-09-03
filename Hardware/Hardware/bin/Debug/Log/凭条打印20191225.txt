@@ -1,0 +1,1 @@
+2019-12-25 19:04:21  ! MS凭条打印机初始化失败 Stack(WriteModuleLogLn Init )

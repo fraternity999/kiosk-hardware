@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<DriverList>
+	<Model name="HP LaserJet">
+		<Driver>HP LaserJet Printer</Driver>
+		<Driver>HP LaserJet Printer PCL 6</Driver>
+		<Driver>HP LaserJet Printer PS</Driver>
+	</Model>
+	<!--
+	<Model name="HP LaserJet 1010" inherits="hp LaserJet" connectionType="LegacyXML" partNumber="C3457A">
+		<Driver>HP LaserJet 1010 PCL 6</Driver>
+		<Driver>HP LaserJet 1010 PS</Driver>
+	</Model>
+	<Model name="HP LaserJet 2200" inherits="hp LaserJet" connectionType="PML" partNumber="C3457A">
+		<Driver>HP LaserJet 2200 PCL 6</Driver>
+		<Driver>HP LaserJet 2200 PS</Driver>
+	</Model>
+	<Model name="HP LaserJet 2300" inherits="hp LaserJet" connectionType="LegacyXML" partNumber="C3457A">
+		<Driver>HP LaserJet Printer</Driver>
+		<Driver>HP LaserJet 2300 PCL 6</Driver>
+		<Driver>HP LaserJet 2300 PS</Driver>
+	</Model>
+	<Model name="HP LaserJet 3015" inherits="hp LaserJet" connectionType="LegacyXML" partNumber="C3457A">
+		<Driver>HP LaserJet 3015 PCL 6</Driver>
+		<Driver>HP LaserJet 3015 PS</Driver>
+	</Model>
+	<Model name="HP LaserJet 3030" inherits="hp LaserJet" connectionType="LegacyXML" partNumber="C3457A">
+		<Driver>HP LaserJet 3030 PCL 6</Driver>
+		<Driver>HP LaserJet 3030 PS</Driver>
+	</Model>
+	<Model name="HP LaserJet 3380" inherits="hp LaserJet" connectionType="LegacyXML" partNumber="C3457A">
+		<Driver>HP LaserJet 3380 PCL 6</Driver>
+		<Driver>HP LaserJet 3380 PS</Driver>
+	</Model>
+	-->
+</DriverList>

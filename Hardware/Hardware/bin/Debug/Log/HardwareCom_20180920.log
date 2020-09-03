@@ -1,0 +1,100 @@
+2018-09-20 14:30:06 ---------Init-------------
+2018-09-20 14:30:06 Init begin
+2018-09-20 14:30:06 InitReceipt begin
+2018-09-20 14:30:06 InitReceipt success
+2018-09-20 14:30:06 InitScannner begin
+2018-09-20 14:30:06 InitScannner Success
+2018-09-20 14:30:06 InitReadCard begin
+2018-09-20 14:30:06 InitReadCard fail
+2018-09-20 14:30:06 InitCardSender fail
+2018-09-20 14:30:06 InitMJ begin
+2018-09-20 14:30:07 InitMJ fail
+2018-09-20 14:30:07 InitLock begin
+2018-09-20 14:30:07 InitLock fail
+2018-09-20 14:30:07 InitTakePhoto begin
+2018-09-20 14:30:07 InitTopTakePhoto fail
+2018-09-20 14:30:07 InitCash begin, type=MPOST
+2018-09-20 14:30:07 InitCash end
+2018-09-20 14:30:07 InitLaserPrinter
+2018-09-20 14:30:07 InitLaserPrinter Success
+2018-09-20 14:30:07 InitPinPad
+2018-09-20 14:30:07 InitPinPad Success
+2018-09-20 14:30:07 Init end
+2018-09-20 14:30:07 凭条打印机检测状态 ReceiptStatus
+2018-09-20 14:30:07 checkResult=打印机未连接或未上电(1)
+2018-09-20 14:30:07 resultContent= DEVERROR
+2018-09-20 14:30:51 ---------Init-------------
+2018-09-20 14:30:51 Init begin
+2018-09-20 14:30:51 InitReceipt begin
+2018-09-20 14:30:51 InitReceipt success
+2018-09-20 14:30:51 InitScannner begin
+2018-09-20 14:30:51 InitScannner Success
+2018-09-20 14:30:51 InitReadCard begin
+2018-09-20 14:30:51 InitReadCard fail
+2018-09-20 14:30:51 InitCardSender fail
+2018-09-20 14:30:51 InitMJ begin
+2018-09-20 14:30:51 InitMJ fail
+2018-09-20 14:30:51 InitLock begin
+2018-09-20 14:30:51 InitLock fail
+2018-09-20 14:30:51 InitTakePhoto begin
+2018-09-20 14:30:51 InitTopTakePhoto fail
+2018-09-20 14:30:51 InitCash begin, type=MPOST
+2018-09-20 14:30:51 InitCash end
+2018-09-20 14:30:51 InitLaserPrinter
+2018-09-20 14:30:51 InitLaserPrinter Success
+2018-09-20 14:30:51 InitPinPad
+2018-09-20 14:30:51 InitPinPad Success
+2018-09-20 14:30:51 Init end
+2018-09-20 14:30:51 凭条打印机检测状态 ReceiptStatus
+2018-09-20 14:30:51 checkResult=打印机未连接或未上电(1)
+2018-09-20 14:30:51 resultContent= DEVERROR
+2018-09-20 14:31:19 ---------Init-------------
+2018-09-20 14:31:19 Init begin
+2018-09-20 14:31:19 InitReceipt begin
+2018-09-20 14:31:19 InitReceipt success
+2018-09-20 14:31:19 InitScannner begin
+2018-09-20 14:31:19 InitScannner Success
+2018-09-20 14:31:19 InitReadCard begin
+2018-09-20 14:31:19 InitReadCard fail
+2018-09-20 14:31:19 InitCardSender fail
+2018-09-20 14:31:19 InitMJ begin
+2018-09-20 14:31:19 InitMJ fail
+2018-09-20 14:31:19 InitLock begin
+2018-09-20 14:31:19 InitLock fail
+2018-09-20 14:31:19 InitTakePhoto begin
+2018-09-20 14:31:19 InitTopTakePhoto fail
+2018-09-20 14:31:19 InitCash begin, type=MPOST
+2018-09-20 14:31:19 InitCash end
+2018-09-20 14:31:19 InitLaserPrinter
+2018-09-20 14:31:19 InitLaserPrinter Success
+2018-09-20 14:31:19 InitPinPad
+2018-09-20 14:31:19 InitPinPad Success
+2018-09-20 14:31:19 Init end
+2018-09-20 14:31:19 凭条打印机检测状态 ReceiptStatus
+2018-09-20 14:31:19 checkResult=打印机未连接或未上电(1)
+2018-09-20 14:31:19 resultContent= DEVERROR
+2018-09-20 14:31:40 ---------Init-------------
+2018-09-20 14:31:40 Init begin
+2018-09-20 14:31:40 InitReceipt begin
+2018-09-20 14:31:40 InitReceipt success
+2018-09-20 14:31:40 InitScannner begin
+2018-09-20 14:31:40 InitScannner Success
+2018-09-20 14:31:40 InitReadCard begin
+2018-09-20 14:31:40 InitReadCard fail
+2018-09-20 14:31:40 InitCardSender fail
+2018-09-20 14:31:40 InitMJ begin
+2018-09-20 14:31:40 InitMJ fail
+2018-09-20 14:31:40 InitLock begin
+2018-09-20 14:31:40 InitLock fail
+2018-09-20 14:31:40 InitTakePhoto begin
+2018-09-20 14:31:40 InitTopTakePhoto fail
+2018-09-20 14:31:40 InitCash begin, type=MPOST
+2018-09-20 14:31:40 InitCash end
+2018-09-20 14:31:40 InitLaserPrinter
+2018-09-20 14:31:40 InitLaserPrinter Success
+2018-09-20 14:31:40 InitPinPad
+2018-09-20 14:31:40 InitPinPad Success
+2018-09-20 14:31:40 Init end
+2018-09-20 14:31:40 凭条打印机检测状态 ReceiptStatus
+2018-09-20 14:31:40 checkResult=打印机未连接或未上电(1)
+2018-09-20 14:31:40 resultContent= DEVERROR

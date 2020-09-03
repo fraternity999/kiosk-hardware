@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OcvVerificationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Model name="HP LaserJet 400 M401a, HP LaserJet 400 M401d, HP LaserJet 400 M401n, HP LaserJet 400 M401dn, HP LaserJet 400 M401dw">
+    <Value name="black" dataType="string" reverseSSN="false">x-laserjet-cartridgeDigitalSignature</Value>
+  </Model>
+</OcvVerificationTypes>

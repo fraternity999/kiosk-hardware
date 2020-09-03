@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIConfiguration>
+	<ConfigurationList>
+		<!-- revisit this section -->
+		<Value name="toolboxTitle" dataType="string">res_toolbox_title</Value>
+		<Value name="advancedTitle" dataType="string">res_toolbox_Device_Settings</Value>
+		<Value name="docListFile" dataType="string">HP_LaserJet_docList.xml</Value>
+		<Value name="productSupportName" dataType="string">Q3702A</Value>
+		<Value name="useContextToggleButton" dataType="boolean">true</Value>
+		<Value name="useContextLaunchButton" dataType="boolean">false</Value>
+		<Value name="useProxyButton" dataType="boolean">false</Value>
+		<Value name="networkLinkFormat" dataType="string">button</Value>
+		<Value name="defaultSortField" dataType="string">dateTime</Value>
+		<Value name="defaultSortOrder" dataType="string">asc</Value>
+		<Value name="colorDevice" dataType="string">true</Value>
+		<Value name="showServiceID" dataType="boolean">true</Value>
+		<Value name="hidePCL5" dataType="boolean">true</Value>
+		<Value name="supports2PassCleaning" dataType="boolean">false</Value>
+		<Value name="useDeviceInstantSupportXMLFile" dataType="boolean">true</Value>
+		<Value name="hpInstantSupportXMLFile" dataType="string">/hp/device/hp_instant_support.xml</Value>
+		<Value name="hpInstantSupportASPFile" dataType="string">InstantSupport.aspx</Value>
+		<Value name="hpInstantSupportURL" dataType="string">https://www.hp.com/post-embed/myprinter</Value>
+		<Value name="hidePowerCycleOnLanguageChangeNote" dataType="boolean">true</Value>
+	</ConfigurationList>
+	<ViewList modelName="HP LaserJet 1010">
+		<ViewDisplay name="GuidoView">
+			<DisplayContextList>
+				<DisplayContext name="StandardDisplay">
+					<Category id="0" title="res_cat_status_title" description="res_cat_status_descr" displayContextLink="StandardDisplay">
+						<Position id="0" title="res_Device_Status" description="res_device_status_descr" displayContextLink="StandardDisplay">
+							<Page name="DeviceStatus"/>
+						</Position>
+					</Category>
+				</DisplayContext>
+			</DisplayContextList>
+		</ViewDisplay>
+	</ViewList>
+	<ViewList modelName="HP LaserJet 2200">
+		<ViewDisplay name="GuidoView">
+			<DisplayContextList>
+				<DisplayContext name="StandardDisplay">
+					<Category id="0" title="res_cat_status_title" description="res_cat_status_descr" displayContextLink="StandardDisplay">
+						<Position id="0" title="res_Device_Status" description="res_device_status_descr" displayContextLink="StandardDisplay">
+							<Page name="DeviceStatus"/>
+						</Position>
+					</Category>
+				</DisplayContext>
+			</DisplayContextList>
+		</ViewDisplay>
+	</ViewList>
+	<PageList>
+
+<!-- Status -->
+		<Page name="ToolboxDefault">
+			<Content>DeviceStatus.aspx</Content>
+		</Page>
+		<Page name="SuppliesStatus">
+			<Content>SuppliesStatus.aspx</Content>
+		</Page>
+		<Page name="ViewConfiguration">
+			<Content>ViewConfiguration.aspx</Content>
+		</Page>
+		<Page name="PrintInfoPages">
+			<Content>PrintInfoPages.aspx</Content>
+		</Page>
+
+<!-- Troubleshooting -->
+		<Page name="PrintProblems">
+			<Content>Troubleshooting.aspx</Content>
+			<Target>documentation/print_problems.htm</Target>
+		</Page>
+		<Page name="PQProblems">
+			<Content>Troubleshooting.aspx</Content>
+			<Target>documentation/print_qual_problems.htm</Target>
+		</Page>
+		<Page name="ErrorMessages">
+			<Content>Troubleshooting.aspx</Content>
+			<Target>documentation/error_messages.htm</Target>
+		</Page>
+		<Page name="Maintenance">
+			<Content>Troubleshooting.aspx</Content>
+			<Target>documentation/maintenance.htm</Target>
+		</Page>
+		<Page name="OtherProblems">
+			<Content>Troubleshooting.aspx</Content>
+			<Target>documentation/other_problems.htm</Target>
+		</Page>
+		<Page name="TSTools">
+			<Content>TSTools.aspx</Content>
+		</Page>
+		<Page name="Animations">
+			<Content>Animations.aspx</Content>
+		</Page>
+<!--
+		<Page name="AlertsConfig">
+			<Content>AlertsConfig.aspx</Content>
+		</Page>
+-->
+		<Page name="AlertsConfigConfirm">
+			<Content>AlertsConfigConfirm.aspx</Content>
+		</Page>
+<!-- Documentation -->
+		<Page name="HowToPrint">
+			<Content>HowToPrint.aspx</Content>
+		</Page>
+		<Page name="HowToOther">
+			<Content>HowToOther.aspx</Content>
+		</Page>
+		<Page name="UserGuide">
+			<Content>UserGuide.aspx</Content>
+		</Page>
+		<Page name="ReadMe">
+			<Content>ReadMe.aspx</Content>
+		</Page>
+		
+<!-- Information -->
+		<Page name="AdvancedDefault">
+			<Content>DeviceStatus.aspx</Content>
+		</Page>
+		<Page name="EventLog">
+			<Content>EventLog.aspx</Content>
+		</Page>
+		<Page name="SaveRestoreSettings">
+			<Content>SaveRestoreSettings.aspx</Content>
+		</Page>
+		
+<!-- Settings -->
+		<Page name="DeviceInformation">
+			<Content>DeviceInfo.aspx</Content>
+		</Page>
+		<Page name="PaperHandling">
+			<Content>PaperHandlingPage.aspx</Content>
+		</Page>
+		<Page name="Printing">
+			<Content>PrintingPage.aspx</Content>
+		</Page>
+		<Page name="PCL">
+			<Content>PCLPage.aspx</Content>
+		</Page>
+		<Page name="PostScript">
+			<Content>PostScriptPage.aspx</Content>
+		</Page>
+		<Page name="PrintQuality">
+			<Content>PrintQualityPage.aspx</Content>
+		</Page>
+		<Page name="PrintDensity">
+			<Content>PrintDensityPage.aspx</Content>
+		</Page>
+		<Page name="PrintModes">
+			<Content>PrintModesPage.aspx</Content>
+		</Page>
+		<Page name="SystemSetup">
+			<Content>SystemSetupPage.aspx</Content>
+		</Page>
+		<Page name="IO">
+			<Content>IOPage.aspx</Content>
+		</Page>
+		<Page name="Service">
+			<Content>ServicePage.aspx</Content>
+		</Page>
+		
+<!-- Other pages -->
+		<Page name="OrderSupplies">
+			<Content>OrderSupplies.aspx</Content>
+		</Page>
+		<Page name="Confirmation">
+			<Content>Confirmation.aspx</Content>
+		</Page>
+	</PageList>
+</UIConfiguration>

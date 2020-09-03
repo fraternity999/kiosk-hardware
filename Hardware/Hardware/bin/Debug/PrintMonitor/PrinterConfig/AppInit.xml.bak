@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<AppInit>
+	<LoadModules>
+    <Module name="Enumeration" assembly="HPToolkit">
+			<ClassName>Com.HP.App.HPToolkit.HPDevice.EnumerateClientDeviceList</ClassName>
+			<StartupCmdLine>/enum:on</StartupCmdLine>
+			<DependencyList>
+        <Dependency>FUS</Dependency>
+      </DependencyList>
+		</Module>
+		<Module name="Alerts" assembly="Alerts">
+			<ClassName>Com.HP.App.Alerts.InitAlerts</ClassName>
+			<StartupCmdLine>/alerts:on</StartupCmdLine>
+			<ModifyRunningOptionsPrefix>/alerts:</ModifyRunningOptionsPrefix>
+			<!-- <ModifyRunningOptionsPrefix>/notifications:</ModifyRunningOptionsPrefix>-->
+			<ShutdownCmdLine>/alerts:off</ShutdownCmdLine>
+			<!--<ShutdownCmdLine>/notifications:off</ShutdownCmdLine>-->
+			<DependencyList>
+				<Dependency>Enumeration</Dependency>
+				
+			</DependencyList>
+		</Module>
+	
+	</LoadModules>
+</AppInit>

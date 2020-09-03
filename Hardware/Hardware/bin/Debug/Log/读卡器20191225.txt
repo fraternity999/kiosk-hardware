@@ -1,0 +1,1 @@
+2019-12-25 19:04:21  打开端口失败，端口：com3 Stack(WriteModuleLogLn AddLog )

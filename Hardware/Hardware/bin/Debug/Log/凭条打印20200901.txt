@@ -1,0 +1,2 @@
+2020-09-01 22:52:33  ! MS凭条打印机初始化失败 Stack(WriteModuleLogLn AddLogLn )
+2020-09-01 23:01:23  ! MS凭条打印机初始化失败 Stack(WriteModuleLogLn AddLogLn )

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DynamicPictureMap>
+  <Model name="HP LaserJet 400 M401a, HP LaserJet 400 M401d, HP LaserJet 400 M401n, HP LaserJet 400 M401dn, HP LaserJet 400 M401dw">
+    <Value name="outputBinFull" dataType="string">outputBinFull.bmp</Value>
+    <Value name="closeDoorOrCover_frontDoor" dataType="string">closeDoorOrCover_frontDoor.bmp</Value>
+    <Value name="closeDoorOrCover_rearDoor" dataType="string">closeDoorOrCover_rearDoor.bmp</Value>
+    <Value name="jamInPrinter_tray1" dataType="string">jamInPrinter_tray1.bmp</Value>
+    <Value name="jamInPrinter_tray2" dataType="string">jamInPrinter_tray2.bmp</Value>
+    <Value name="jamInPrinter_outputBin" dataType="string">jamInPrinter_outputBin.bmp</Value>
+    <Value name="trayEmptyOrOpen_tray1" dataType="string">trayEmptyOrOpen_tray1.bmp</Value>
+    <Value name="unexpectedSizeInTray_tray1" dataType="string">trayEmptyOrOpen_tray1.bmp</Value>
+    <Value name="paperPrompt_tray1" dataType="string">trayEmptyOrOpen_tray1.bmp</Value>
+    <Value name="paperPrompt_tray2" dataType="string">trayEmptyOrOpen_tray2.bmp</Value>
+    <Value name="tonerSealInPlace" dataType="string">incorrectCartridge.bmp</Value>
+    <Value name="cartridgeMissing" dataType="string">cartridgeMissing.bmp</Value>
+    <Value name="incompatibleConsumable" dataType="string">incompatibleConsumable.bmp</Value>
+    <Value name="incorrectCartridge" dataType="string">incorrectCartridge.bmp</Value>
+    <Value name="missingMemory" dataType="string">incorrectCartridge.bmp</Value>
+    <Value name="defectiveMemory" dataType="string">incorrectCartridge.bmp</Value>
+    <Value name="usedConsumable" dataType="string">incorrectCartridge.bmp</Value>
+  </Model>
+</DynamicPictureMap>

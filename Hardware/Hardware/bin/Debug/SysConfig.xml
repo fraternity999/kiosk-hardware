@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <appSettings>
+    <!--二代证端口号，1~16表示串口号，1001表示USB口，0表示自动选择-->
+    <add key="Card2Port" value="1001"/>
+    <!--二代证超时时间 毫秒-->
+    <add key="Card2TimeOut" value="20000"/>
+  	<!--视频截图保存位置-->
+    <add key="SnapshotSavePath" value="D:\\XUHUI_ZZJ\\CameraSave"/>
+  	<!--视频截图间隔-->
+	<add key="SnapshotInterval" value="3000"/>
+  	<!--视频截图时长 0表示只取1张就返回 其他毫秒为单位-->
+	<add key="SnapshotTime" value="0"/>
+  	<!--顶部摄像头索引位置-->
+	 <add key="TopCameraIndex" value="0"/>
+    <!--底部摄像头索引位置-->
+    <add key="BottomCameraIndex" value="-1"/>
+	  <!--扫描仪端口号-->
+	<add key="ScannnerPort" value="5"/>
+   <!--扫描仪自动超时时间 毫秒-->
+   <add key="ScannnerTimeOut" value="5000"/>
+   <!--打印内容文件-->
+   <add key="PrintTextPath" value="C:\\print.txt"/>
+    <!--凭条纸将尽检测端口号-->
+    <add key="PrintStatePort" value="2"/>
+    <!--凭条纸将尽检测类型-->
+    <add key="PrintCheckType" value="3"/>
+    <!--凭条名字-->
+    <add key="PrintName" value="MS-D347"/>
+    <!--纸币器端口-->
+    <add key="PostPort" value="COM4"/>
+    <!--纸币器类型 MPOST，BA08-->
+    <add key="PostType" value="BA08"/>
+    <!--日志保存路径-->
+    <add key="LogSavePath" value=".\\Log"/>
+    <!--读卡器端口-->
+    <add key="ReadCardPort" value="3"/>
+    <!--读卡器类型-->
+    <add key="ReadCardType" value="A6_30"/>
+    <!--发卡器名称-->
+    <add key="CardSenderName" value="Evolis Primacy"/>
+    <!--推杆端口-->
+    <add key="TGPort" value="COM5"/>
+    <!--门锁端口-->
+    <add key="LockPort" value="COM7"/>
+    <!--门锁类型，Default为串口；xuhui为 旭辉控制板，不过初始化由门禁灯初始化时实现了-->
+    <add key="LockType" value="Xuhui"/>
+    <!--门锁和门禁灯类型：1、门锁串口，门禁灯hongjiali；2门锁旭辉，门禁灯旭辉，3门锁串口，门禁灯旭辉；4门锁旭辉，门禁灯hongjiali（第4种未实现）-->
+    <!--高抗低抗配置 0为低抗，1为高抗-->
+    <add key="CardSenderPotential" value="1"/>
+    <!--发卡器类型-->
+    <add key="CardSenderType" value="ACT_F6_2110"/>
+    <!--发卡器端口-->
+    <add key="ReadCardSender" value="11"/>
+    <!--二代读卡器类型-->
+    <add key="Card2Type" value="HuaXu"/>
+    <!--金属键盘COM口-->
+    <add key="PinPadPort" value="COM1"/>
+    <!--激光打印机类型-->
+    <add key="LaserPrinterType" value="HPM402"/>
+    <!--激光打印机名称-->
+    <add key="LaserPrinterName" value="USB001"/>
+    <!--硬件功能是否使用 凭条打印机/扫描枪/读卡器/发卡器/门禁灯/推杆/门锁/摄像头/纸币器/病历打印机/激光打印机/金属键盘   1为启用，0为禁用-->
+   <!-- <add key="IsHardwareEnableList" value="1,1,1,1,1,1,1,1,1,1,1,1"/>-->
+    <add key="IsHardwareEnableList" value="1,0,1,1,1,0,1,1,1,0,1,0"/>
+    <add key="DoorLightType" value="Xuhui"/>
+    <add key="DoorLightCom" value="COM7"/>
+    
+  </appSettings>
+</Root>

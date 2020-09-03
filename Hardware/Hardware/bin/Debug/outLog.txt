@@ -1,0 +1,162 @@
+2017-12-27 14:26:19:774--------method start(OpenPebble)
+2017-12-27 14:26:19:804--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 14:26:34:821--------method start(ClosePebble)
+2017-12-27 14:26:34:831--------method start(OpenPebble)
+2017-12-27 14:26:34:871--------method start(WritePebble)  command:Pcem;R
+2017-12-27 14:26:49:881--------method start(ClosePebble)
+2017-12-27 14:26:49:881--------method start(OpenPebble)
+2017-12-27 14:26:49:891--------method start(WritePebble)  command:Pem;2
+2017-12-27 14:27:4:905--------method start(ClosePebble)
+2017-12-27 14:27:19:397--------method start(OpenPebble)
+2017-12-27 14:27:19:407--------method start(WritePebble)  command:Pps;1;1
+2017-12-27 14:27:34:424--------method start(ClosePebble)
+2017-12-27 14:28:2:714--------method start(OpenPebble)
+2017-12-27 14:28:2:724--------method start(WritePebble)  command:Pps;1;1
+2017-12-27 14:28:17:736--------method start(ClosePebble)
+2017-12-27 14:31:14:541--------method start(OpenPebble)
+2017-12-27 14:31:14:541--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 14:31:29:554--------method start(ClosePebble)
+2017-12-27 14:31:29:564--------method start(OpenPebble)
+2017-12-27 14:31:29:574--------method start(WritePebble)  command:Pcem;R
+2017-12-27 14:31:44:586--------method start(ClosePebble)
+2017-12-27 14:31:44:586--------method start(OpenPebble)
+2017-12-27 14:31:44:606--------method start(WritePebble)  command:Pem;2
+2017-12-27 14:31:59:256--------method start(OpenPebble)
+2017-12-27 14:31:59:266--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 14:31:59:606--------method start(ReadPebble)
+2017-12-27 14:31:59:616--------method start(ClosePebble)
+2017-12-27 14:31:59:606--------method end(ReadPebble)  command:Time out
+2017-12-27 14:32:14:614--------method start(ClosePebble)
+2017-12-27 14:32:14:624--------method start(OpenPebble)
+2017-12-27 14:32:14:634--------method start(WritePebble)  command:Pcem;R
+2017-12-27 14:32:15:128--------method start(OpenPebble)
+2017-12-27 14:32:15:135--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 14:32:29:642--------method start(ReadPebble)
+2017-12-27 14:32:29:642--------method end(ReadPebble)  command:Time out
+2017-12-27 14:32:44:646--------method start(ClosePebble)
+2017-12-27 14:32:44:656--------method start(OpenPebble)
+2017-12-27 14:32:44:666--------method start(ClosePebble)
+2017-12-27 14:32:44:676--------method start(OpenPebble)
+2017-12-27 14:32:44:676--------method start(WritePebble)  command:Pcem;R
+2017-12-27 14:32:44:686--------method start(WritePebble)  command:Pem;2
+2017-12-27 14:32:59:679--------method start(ReadPebble)
+2017-12-27 14:32:59:689--------method start(ClosePebble)
+2017-12-27 14:32:59:689--------method start(OpenPebble)
+2017-12-27 14:32:59:703--------method start(WritePebble)  command:Pem;2
+2017-12-27 14:32:59:679--------method end(ReadPebble)  command:Time out
+2017-12-27 14:33:14:683--------method start(ClosePebble)
+2017-12-27 14:33:14:713--------method start(ReadPebble)
+2017-12-27 14:33:14:713--------method end(ReadPebble)  command:Time out
+2017-12-27 14:33:29:721--------method start(ClosePebble)
+2017-12-27 15:2:53:255--------method start(OpenPebble)
+2017-12-27 15:2:53:275--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 15:2:58:618--------method start(OpenPebble)
+2017-12-27 15:2:58:628--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 15:3:8:281--------method start(ReadPebble)
+2017-12-27 15:3:8:281--------method end(ReadPebble)  command:Time out
+2017-12-27 15:3:23:287--------method start(ClosePebble)
+2017-12-27 15:3:23:289--------method start(OpenPebble)
+2017-12-27 15:3:23:299--------method start(WritePebble)  command:Pcem;R
+2017-12-27 15:3:23:299--------method start(ReadPebble)
+2017-12-27 15:3:23:309--------method start(ClosePebble)
+2017-12-27 15:3:23:309--------method start(OpenPebble)
+2017-12-27 15:3:23:319--------method start(WritePebble)  command:Pcem;R
+2017-12-27 15:3:23:299--------method end(ReadPebble)  command:Time out
+2017-12-27 15:3:38:301--------method start(ClosePebble)
+2017-12-27 15:3:38:311--------method start(OpenPebble)
+2017-12-27 15:3:38:321--------method start(WritePebble)  command:Pem;2
+2017-12-27 15:3:53:325--------method start(ReadPebble)
+2017-12-27 15:3:53:335--------method start(ClosePebble)
+2017-12-27 15:3:53:325--------method end(ReadPebble)  command:Time out
+2017-12-27 15:4:8:326--------method start(ClosePebble)
+2017-12-27 15:4:8:337--------method start(OpenPebble)
+2017-12-27 15:4:8:347--------method start(WritePebble)  command:Pem;2
+2017-12-27 15:4:12:327--------method start(OpenPebble)
+2017-12-27 15:4:12:335--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 15:4:23:351--------method start(ReadPebble)
+2017-12-27 15:4:23:361--------method start(ClosePebble)
+2017-12-27 15:4:23:351--------method end(ReadPebble)  command:Time out
+2017-12-27 15:4:38:351--------method start(ClosePebble)
+2017-12-27 15:4:38:361--------method start(OpenPebble)
+2017-12-27 15:4:38:371--------method start(WritePebble)  command:Pcem;R
+2017-12-27 15:4:53:387--------method start(ReadPebble)
+2017-12-27 15:4:53:387--------method end(ReadPebble)  command:Time out
+2017-12-27 15:5:8:387--------method start(ClosePebble)
+2017-12-27 15:5:8:398--------method start(OpenPebble)
+2017-12-27 15:5:8:414--------method start(WritePebble)  command:Pem;2
+2017-12-27 15:5:23:425--------method start(ReadPebble)
+2017-12-27 15:5:23:425--------method end(ReadPebble)  command:Time out
+2017-12-27 15:5:38:425--------method start(ClosePebble)
+2017-12-27 15:6:58:566--------method start(OpenPebble)
+2017-12-27 15:6:58:578--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 15:7:13:592--------method start(ReadPebble)
+2017-12-27 15:7:13:592--------method end(ReadPebble)  command:Time out
+2017-12-27 15:7:28:600--------method start(ClosePebble)
+2017-12-27 15:7:28:600--------method start(OpenPebble)
+2017-12-27 15:7:28:610--------method start(WritePebble)  command:Pcem;R
+2017-12-27 15:7:43:629--------method start(ReadPebble)
+2017-12-27 15:7:46:898--------method start(OpenPebble)
+2017-12-27 15:7:46:898--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 15:7:43:629--------method end(ReadPebble)  command:Time out
+2017-12-27 15:7:58:629--------method start(ClosePebble)
+2017-12-27 15:7:58:629--------method start(OpenPebble)
+2017-12-27 15:7:58:639--------method start(WritePebble)  command:Pem;2
+2017-12-27 15:8:1:905--------method start(ReadPebble)
+2017-12-27 15:8:4:101--------method start(OpenPebble)
+2017-12-27 15:8:4:111--------method start(WritePebble)  command:Pcrm;R
+2017-12-27 15:8:1:905--------method end(ReadPebble)  command:Time out
+2017-12-27 15:8:16:906--------method start(ClosePebble)
+2017-12-27 15:8:16:918--------method start(ReadPebble)
+2017-12-27 15:8:16:928--------method start(ClosePebble)
+2017-12-27 15:8:16:928--------method start(OpenPebble)
+2017-12-27 15:8:16:948--------method start(WritePebble)  command:Pcem;R
+2017-12-27 15:8:16:918--------method end(ReadPebble)  command:Time out
+2017-12-27 15:8:31:922--------method start(ClosePebble)
+2017-12-27 15:8:31:922--------method start(OpenPebble)
+2017-12-27 15:8:31:932--------method start(WritePebble)  command:Pcem;R
+2017-12-27 15:8:31:951--------method start(ReadPebble)
+2017-12-27 15:8:31:951--------method end(ReadPebble)  command:Time out
+2017-12-27 15:8:46:951--------method start(ClosePebble)
+2017-12-27 15:8:46:951--------method start(OpenPebble)
+2017-12-27 15:8:46:961--------method start(WritePebble)  command:Pem;2
+2017-12-27 15:8:46:971--------method start(ReadPebble)
+2017-12-27 15:8:46:981--------method start(ClosePebble)
+2017-12-27 15:8:46:981--------method start(OpenPebble)
+2017-12-27 15:8:46:991--------method start(WritePebble)  command:Pem;2
+2017-12-27 15:8:46:971--------method end(ReadPebble)  command:Time out
+2017-12-27 15:9:1:980--------method start(ClosePebble)
+2017-12-27 15:9:2:10--------method start(ReadPebble)
+2017-12-27 15:9:2:10--------method end(ReadPebble)  command:Time out
+2017-12-27 15:9:17:17--------method start(ClosePebble)
+2017-12-27 15:14:42:249--------method start(OpenPebble)
+2017-12-27 15:14:42:259--------method start(WritePebble)  command:Pcrm;R
+2018-3-7 8:44:54:992--------method start(OpenPebble)
+2018-3-7 8:44:55:12--------method start(OpenPebble)
+2018-3-7 8:44:55:22--------method start(OpenPebble)
+2018-3-7 8:45:54:398--------method start(OpenPebble)
+2018-3-7 8:45:54:408--------method start(OpenPebble)
+2018-3-7 8:45:54:408--------method start(OpenPebble)
+2018-3-7 15:55:56:581--------method start(OpenPebble)
+2018-3-7 15:55:57:27--------method start(OpenPebble)
+2018-3-7 15:55:57:35--------method start(OpenPebble)
+2018-3-7 16:14:26:243--------method start(OpenPebble)
+2018-3-7 16:14:26:345--------method start(OpenPebble)
+2018-3-7 16:14:26:351--------method start(OpenPebble)
+2018-3-7 16:19:3:652--------method start(OpenPebble)
+2018-3-7 16:19:3:659--------method start(OpenPebble)
+2018-3-7 16:19:3:663--------method start(OpenPebble)
+2018-3-7 16:24:1:500--------method start(OpenPebble)
+2018-3-7 16:24:1:506--------method start(OpenPebble)
+2018-3-7 16:24:1:512--------method start(OpenPebble)
+2018-3-7 16:24:31:674--------method start(OpenPebble)
+2018-3-7 16:24:31:683--------method start(OpenPebble)
+2018-3-7 16:24:31:688--------method start(OpenPebble)
+2018-3-7 16:27:14:817--------method start(OpenPebble)
+2018-3-7 16:27:14:824--------method start(OpenPebble)
+2018-3-7 16:27:14:829--------method start(OpenPebble)
+2018-3-7 16:27:19:989--------method start(OpenPebble)
+2018-3-7 16:29:56:552--------method start(OpenPebble)
+2018-3-7 16:29:57:981--------method start(OpenPebble)
+2018-3-7 16:29:58:297--------method start(OpenPebble)
+2018-3-7 16:29:58:306--------method start(OpenPebble)
+2018-3-7 16:29:58:712--------method start(OpenPebble)

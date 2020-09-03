@@ -1,0 +1,72 @@
+2019-12-19 17:32:18 ---------Init-------------
+2019-12-19 17:32:18 Init begin
+2019-12-19 17:32:18 InitReceipt begin
+2019-12-19 17:32:18 MS BG, InitReceipt fail
+2019-12-19 17:32:18 InitScannner begin
+2019-12-19 17:32:19 InitScannner fail
+2019-12-19 17:32:19 InitReadCard begin
+2019-12-19 17:32:19 InitReadCard fail
+2019-12-19 17:32:19 InitMJ begin
+2019-12-19 17:32:19 InitMJ fail
+2019-12-19 17:32:19 InitLock begin
+2019-12-19 17:32:19 InitLock fail
+2019-12-19 17:32:19 InitTakePhoto begin
+2019-12-19 17:32:19 InitTopTakePhoto fail
+2019-12-19 17:32:19 InitCash begin, type=MPOST
+2019-12-19 17:32:19 InitCash end
+2019-12-19 17:32:19 InitLaserPrinter
+2019-12-19 17:32:19 InitLaserPrinter Success
+2019-12-19 17:32:19 InitPinPad
+2019-12-19 17:32:19 InitPinPad Success
+2019-12-19 17:32:19 Init end
+2019-12-19 17:57:24 ---------Init-------------
+2019-12-19 17:57:24 Init begin
+2019-12-19 17:57:24 InitReceipt begin
+2019-12-19 17:57:24 MS BG, InitReceipt fail
+2019-12-19 17:57:25 InitScannner begin
+2019-12-19 17:57:25 InitScannner fail
+2019-12-19 17:57:25 InitReadCard begin
+2019-12-19 17:57:25 InitReadCard fail
+2019-12-19 17:57:25 InitMJ begin
+2019-12-19 17:57:25 InitMJ fail
+2019-12-19 17:57:25 InitLock begin
+2019-12-19 17:57:25 InitLock fail
+2019-12-19 17:57:25 InitTakePhoto begin
+2019-12-19 17:57:25 InitTopTakePhoto fail
+2019-12-19 17:57:25 InitCash begin, type=MPOST
+2019-12-19 17:57:25 InitCash end
+2019-12-19 17:57:25 InitLaserPrinter
+2019-12-19 17:57:25 InitLaserPrinter Success
+2019-12-19 17:57:25 InitPinPad
+2019-12-19 17:57:25 InitPinPad Success
+2019-12-19 17:57:25 Init end
+2019-12-19 17:57:26 凭条打印机检测状态 ReceiptStatus
+2019-12-19 17:57:26 ret=1, checkResult=打印机未连接或未上电
+2019-12-19 17:57:27 resultContent= DEVERROR
+2019-12-19 17:57:28 凭条打印机检测状态 ReceiptStatus
+2019-12-19 17:57:28 ret=1, checkResult=打印机未连接或未上电
+2019-12-19 17:57:28 resultContent= DEVERROR
+2019-12-19 17:57:35 ---------Init-------------
+2019-12-19 17:57:35 Init begin
+2019-12-19 17:57:35 InitReceipt begin
+2019-12-19 17:57:35 MS BG, InitReceipt fail
+2019-12-19 17:57:35 InitScannner begin
+2019-12-19 17:57:35 InitScannner fail
+2019-12-19 17:57:35 InitReadCard begin
+2019-12-19 17:57:35 InitReadCard fail
+2019-12-19 17:57:35 InitMJ begin
+2019-12-19 17:57:35 InitMJ fail
+2019-12-19 17:57:35 InitLock begin
+2019-12-19 17:57:35 InitLock fail
+2019-12-19 17:57:35 InitTakePhoto begin
+2019-12-19 17:57:35 InitTopTakePhoto fail
+2019-12-19 17:57:35 InitCash begin, type=MPOST
+2019-12-19 17:57:35 InitCash end
+2019-12-19 17:57:35 InitLaserPrinter
+2019-12-19 17:57:35 InitLaserPrinter Success
+2019-12-19 17:57:35 InitPinPad
+2019-12-19 17:57:35 InitPinPad Success
+2019-12-19 17:57:35 Init end
+2019-12-19 17:57:36 凭条打印机检测状态 ReceiptStatus
+2019-12-19 17:57:36 ret=1, checkResult=打印机未连接或未上电
+2019-12-19 17:57:36 resultContent= DEVERROR

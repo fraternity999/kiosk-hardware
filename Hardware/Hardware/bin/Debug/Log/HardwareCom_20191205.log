@@ -1,0 +1,21 @@
+2019-12-05 10:02:32 ---------Init-------------
+2019-12-05 10:02:32 Init begin
+2019-12-05 10:02:32 InitReceipt begin
+2019-12-05 10:02:32 MS BG, InitReceipt fail
+2019-12-05 10:02:32 InitScannner begin
+2019-12-05 10:02:32 InitScannner fail
+2019-12-05 10:02:32 InitReadCard begin
+2019-12-05 10:02:33 InitReadCard fail
+2019-12-05 10:02:33 InitMJ begin
+2019-12-05 10:02:33 InitMJ fail
+2019-12-05 10:02:33 InitLock begin
+2019-12-05 10:02:33 InitLock fail
+2019-12-05 10:02:33 InitTakePhoto begin
+2019-12-05 10:02:33 InitTopTakePhoto fail
+2019-12-05 10:02:33 InitCash begin, type=MPOST
+2019-12-05 10:02:33 InitCash end
+2019-12-05 10:02:33 InitLaserPrinter
+2019-12-05 10:02:33 InitLaserPrinter Success
+2019-12-05 10:02:33 InitPinPad
+2019-12-05 10:02:33 InitPinPad Success
+2019-12-05 10:02:33 Init end

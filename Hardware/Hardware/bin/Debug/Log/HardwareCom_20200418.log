@@ -1,0 +1,16 @@
+2020-04-18 16:27:58 ---------Init-------------
+2020-04-18 16:27:58 Init begin
+2020-04-18 16:27:58 InitLaserPrinter
+2020-04-18 16:27:58 InitLaserPrinter Success
+2020-04-18 16:27:58 Init end
+2020-04-18 16:28:35 ---------Init-------------
+2020-04-18 16:28:35 Init begin
+2020-04-18 16:28:35 InitMJ begin
+2020-04-18 16:28:35 InitMJ fail
+2020-04-18 16:28:35 InitLock begin
+2020-04-18 16:28:35 InitLock fail
+2020-04-18 16:28:35 InitLaserPrinter
+2020-04-18 16:28:35 InitLaserPrinter Success
+2020-04-18 16:28:35 Init end
+2020-04-18 16:28:40 ---------LockOpenHardware-------------
+2020-04-18 16:28:41 ---------LockCloseHardware-------------

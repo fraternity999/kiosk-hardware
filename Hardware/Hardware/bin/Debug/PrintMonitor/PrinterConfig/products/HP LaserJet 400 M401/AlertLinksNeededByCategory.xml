@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlertEventLinksNeeded>
+  <Category name="FraudInformation">
+    <StringValue name="usedConsumable" dataType="string">usedConsumable</StringValue>
+  </Category>
+  <Category name="OrderSupplies">
+    <StringValue name="outputBinFull" dataType="string">outputBinFull</StringValue>
+    <StringValue name="insufficientMemory" dataType="string">insufficientMemory</StringValue>
+    <StringValue name="closeDoorOrCover" dataType="string">closeDoorOrCover</StringValue>
+    <StringValue name="printerMispick" dataType="string">printerMispick</StringValue>
+    <StringValue name="printerError" dataType="string">printerError</StringValue>
+    <StringValue name="jamInPrinter" dataType="string">jamInPrinter</StringValue>
+    <StringValue name="trayEmptyOrOpen" dataType="string">trayEmptyOrOpen</StringValue>
+    <StringValue name="unexpectedSizeInTray" dataType="string">unexpectedSizeInTray</StringValue>
+    <StringValue name="paperPrompt" dataType="string">paperPrompt</StringValue>
+    <StringValue name="tonerSealInPlace" dataType="string">tonerSealInPlace</StringValue>
+    <StringValue name="cartridgeMissing" dataType="string">cartridgeMissing</StringValue>
+    <StringValue name="incompatibleConsumable" dataType="string">incompatibleConsumable</StringValue>
+    <StringValue name="incorrectCartridge" dataType="string">incorrectCartridge</StringValue>
+    <StringValue name="missingMemory" dataType="string">missingMemory</StringValue>
+    <StringValue name="defectiveMemory" dataType="string">defectiveMemory</StringValue>
+    <StringValue name="usedConsumable" dataType="string">usedConsumable</StringValue>
+    <StringValue name="replaceCartridgeOut" dataType="string">replaceCartridgeOut</StringValue>
+    <StringValue name="cartridgeVeryLow" dataType="string">cartridgeVeryLow</StringValue>
+    <StringValue name="cartridgeLow" dataType="string">cartridgeLow</StringValue>
+    <StringValue name="mpaccoActive" dataType="string">mpaccoActive</StringValue>
+    <StringValue name="unsupportedCartridge" dataType="string">unsupportedCartridge</StringValue>
+  </Category>
+  <Category name="SuppliesOffers">
+    <StringValue name="cartridgeMissing" dataType="string">cartridgeMissing</StringValue>
+    <StringValue name="incompatibleConsumable" dataType="string">incompatibleConsumable</StringValue>
+    <StringValue name="incorrectCartridge" dataType="string">incorrectCartridge</StringValue>
+    <StringValue name="missingMemory" dataType="string">missingMemory</StringValue>
+    <StringValue name="defectiveMemory" dataType="string">defectiveMemory</StringValue>
+    <StringValue name="usedConsumable" dataType="string">usedConsumable</StringValue>
+    <StringValue name="replaceCartridgeOut" dataType="string">replaceCartridgeOut</StringValue>
+    <StringValue name="cartridgeVeryLow" dataType="string">cartridgeVeryLow</StringValue>
+    <StringValue name="cartridgeLow" dataType="string">cartridgeLow</StringValue>
+    <StringValue name="mpaccoActive" dataType="string">mpaccoActive</StringValue>
+    <StringValue name="unsupportedCartridge" dataType="string">unsupportedCartridge</StringValue>
+  </Category>
+  <Category name="SuppliesStatus">
+    <StringValue name="tonerSealInPlace" dataType="string">tonerSealInPlace</StringValue>
+    <StringValue name="cartridgeMissing" dataType="string">cartridgeMissing</StringValue>
+    <StringValue name="incompatibleConsumable" dataType="string">incompatibleConsumable</StringValue>
+    <StringValue name="incorrectCartridge" dataType="string">incorrectCartridge</StringValue>
+    <StringValue name="missingMemory" dataType="string">missingMemory</StringValue>
+    <StringValue name="defectiveMemory" dataType="string">defectiveMemory</StringValue>
+    <StringValue name="usedConsumable" dataType="string">usedConsumable</StringValue>
+    <StringValue name="replaceCartridgeOut" dataType="string">replaceCartridgeOut</StringValue>
+    <StringValue name="cartridgeVeryLow" dataType="string">cartridgeVeryLow</StringValue>
+    <StringValue name="cartridgeLow" dataType="string">cartridgeLow</StringValue>
+    <StringValue name="mpaccoActive" dataType="string">mpaccoActive</StringValue>
+    <StringValue name="unsupportedCartridge" dataType="string">unsupportedCartridge</StringValue>
+  </Category>
+  <Category name="ReturnAndRecycling">
+    <StringValue name="usedConsumable" dataType="string">usedConsumable</StringValue>
+    <StringValue name="replaceCartridgeOut" dataType="string">replaceCartridgeOut</StringValue>
+    <StringValue name="cartridgeVeryLow" dataType="string">cartridgeVeryLow</StringValue>
+    <StringValue name="cartridgeLow" dataType="string">cartridgeLow</StringValue>
+    <StringValue name="mpaccoActive" dataType="string">mpaccoActive</StringValue>
+  </Category>
+</AlertEventLinksNeeded>

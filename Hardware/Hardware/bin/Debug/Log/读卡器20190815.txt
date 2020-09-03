@@ -1,0 +1,8 @@
+2019-08-15 09:41:29  打开ACT_F6 port=COM3 Stack(WriteModuleLogLn AddLog )
+2019-08-15 09:41:29  打开端口失败,端口：COM3 错误原因：指定的COM端口不存在或者被其他程序占用 Stack(WriteModuleLogLn AddLog )
+2019-08-15 09:41:38  ACT_F6 已经关闭 Stack(WriteModuleLogLn AddLog )
+2019-08-15 09:41:53  打开端口失败，端口：com3 Stack(WriteModuleLogLn AddLog )
+2019-08-15 09:41:53  打开ACT_F6 port=COM3 Stack(WriteModuleLogLn AddLog )
+2019-08-15 09:41:53  打开端口失败,端口：COM3 错误原因：指定的COM端口不存在或者被其他程序占用 Stack(WriteModuleLogLn AddLog )
+2019-08-15 09:41:58  ACT_F6 已经关闭 Stack(WriteModuleLogLn AddLog )
+2019-08-15 09:42:23  打开端口失败，端口：com3 Stack(WriteModuleLogLn AddLog )

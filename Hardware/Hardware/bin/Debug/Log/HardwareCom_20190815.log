@@ -1,0 +1,21 @@
+2019-08-15 09:41:29 ---------Init-------------
+2019-08-15 09:41:29 Init begin
+2019-08-15 09:41:29 InitReceipt begin
+2019-08-15 09:41:29 InitReceipt success
+2019-08-15 09:41:29 InitCardSender fail
+2019-08-15 09:41:29 Init end
+2019-08-15 09:41:53 ---------Init-------------
+2019-08-15 09:41:53 Init begin
+2019-08-15 09:41:53 InitReceipt begin
+2019-08-15 09:41:53 InitReceipt success
+2019-08-15 09:41:53 InitReadCard begin
+2019-08-15 09:41:53 InitReadCard fail
+2019-08-15 09:41:53 InitCardSender fail
+2019-08-15 09:41:53 Init end
+2019-08-15 09:42:22 ---------Init-------------
+2019-08-15 09:42:22 Init begin
+2019-08-15 09:42:22 InitReceipt begin
+2019-08-15 09:42:22 InitReceipt success
+2019-08-15 09:42:22 InitReadCard begin
+2019-08-15 09:42:23 InitReadCard fail
+2019-08-15 09:42:23 Init end

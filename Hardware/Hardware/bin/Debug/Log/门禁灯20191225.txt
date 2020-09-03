@@ -1,0 +1,1 @@
+2019-12-25 19:04:21  打开端口失败:端口“COM7”不存在。 Stack(WriteModuleLogLn CommOpen )

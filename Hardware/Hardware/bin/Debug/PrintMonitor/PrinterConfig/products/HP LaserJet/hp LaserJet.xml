@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceDefinition>
+  <FileFormat>
+    <Format>Device Definition</Format>
+    <Version>1.1</Version>
+  </FileFormat>
+  <ModelList>
+    <Model>hp LaserJet</Model>
+  </ModelList>
+  <ConstructorList>
+    <ValueList>
+      <Value name="BaseModelName" dataType="string">$$Model$$</Value>
+      <Value name="FixedName" dataType="string">$$FixedFriendlyName$$</Value>
+      <Value name="baseProductURL" dataType="string">products/$$Model$$</Value>
+      <Value name="iconURL" dataType="string">resources/images/$$Model$$.gif</Value>
+      <Value name="supportsAlerts" dataType="boolean">false</Value>
+      <Value name="supportsNotifications" dataType="boolean">false</Value>
+      <Value name="supportsPrintingWarningAlerts" dataType="boolean">true</Value>
+      <Value name="supportsPrintingErrorAlerts" dataType="boolean">true</Value>
+      <Value name="supportsAlertsSettings" dataType="boolean">true</Value>
+      <Value name="supportsSuppliesWarningAlerts" dataType="boolean">true</Value>
+      <Value name="supportsSuppliesErrorAlerts" dataType="boolean">false</Value>            
+      <Value name="supportsEmailAlerts" dataType="boolean">false</Value>
+      <Value name="supportsScanToErrorAlerts" dataType="boolean">false</Value>
+      <!-- Default values for alerts states -->
+      <Value name="isPopUpOn" dataType="boolean">true</Value>
+      <Value name="isSystrayOn" dataType="boolean">true</Value>
+      <Value name="isDesktopOn" dataType="boolean">false</Value>
+      <Value name="isEmailOn" dataType="boolean">false</Value>
+      <Value name="isSuppliesAlertsErrorsOn" dataType="boolean">true</Value>
+      <Value name="isSuppliesAlertsWarningsOn" dataType="boolean">true</Value>
+      <Value name="isPrintingAlertsOn" dataType="boolean">true</Value>
+      <Value name="disableSystrayCheckbox" dataType="boolean">false</Value>
+      <!-- The 3 Paths below are for legacy products. Use new files -->
+      <Value name="alertLinksNeeded" dataType="string">/products/$$Model$$/$$Model$$_alert_event_links_needed.xml</Value>  
+      <Value name="alertEventIgnoreCodes" dataType="string">/products/$$Model$$/$$Model$$_alert_event_ignore_codes.xml</Value>  
+      <Value name="alertHelpCodes" dataType="string">/products/$$Model$$/$$Model$$_alert_help_codes.xml</Value> 
+      <Value name="suppliesFraudInfoURL" dataType="string">http://www.hp.com/go/anticounterfeit</Value>
+      <Value name="suppliesReturnAndRecyclingURL" dataType="string">http://www.hp.com/go/recycle</Value>
+      <Value name="directIESOLink" dataType="string">http://www.hp.com/post-embed/ordersupplies-na</Value>  
+      <Value name="xmlTreeNamespaceURL" dataType="string">http://www.hp.com/schemas/imaging/pls/dev/1.0</Value>                                                
+      <Value name="xmlURLPath" dataType="string">TypeToLocation.txt</Value>
+      <Value name="useDeviceModel" dataType="boolean">false</Value>
+      <Value name="connectionTypeOverride" dataType="string">NONE</Value>
+      <Value name="disableSNPAlerts" dataType="boolean">false</Value>
+      <Value name="SNPAlerts_driverRegBase" dataType="string">null</Value>
+      <Value name="SNPAlerts_printerDriverData" dataType="string">null</Value>
+      <Value name="SNPAlerts_notifyEventSetting" dataType="string">null</Value>
+    </ValueList>
+    <ObjectList>
+      <Object name="ViewProcessor" assembly="HPAppTools">
+        <ClassName>Com.HP.App.HPAppTools.GuidoViewProcessor</ClassName>
+        <ParameterList>
+          <UseObject>ThisDevice</UseObject>
+        </ParameterList>
+      </Object>
+    </ObjectList>
+  </ConstructorList>
+  <XmlObjectManagerList>
+    <XmlObjectManager name="PlsdmXmlObjectManager">
+      <ObjectList>
+        <Object name="XmlObjectManager" assembly="PLSDMMapperObjects">
+          <ClassName>Com.HP.HPXML.PLSXML.PlsdmXmlObjectManager</ClassName>
+          <ParameterList>
+            <UseObject>ThisDevice</UseObject>
+            <UseObject>DeviceGuid</UseObject>
+            <UseObject>DeviceService</UseObject>
+            <UseObject>DidDeviceConnect</UseObject>
+          </ParameterList>
+        </Object>
+      </ObjectList>
+    </XmlObjectManager>
+    <XmlObjectManager name="LedmXmlObjectManager">
+      <ObjectList>
+        <Object name="XmlObjectManager" assembly="LEDMMapperObjects">
+          <ClassName>Com.HP.HPXML.DD.LEDMObjects.LedmXmlObjectManager</ClassName>
+          <ParameterList>
+            <UseObject>ThisDevice</UseObject>
+            <UseObject>DeviceGuid</UseObject>
+            <UseObject>DeviceService</UseObject>
+            <UseObject>DidDeviceConnect</UseObject>
+          </ParameterList>
+        </Object>
+      </ObjectList>
+    </XmlObjectManager>
+  </XmlObjectManagerList>
+</DeviceDefinition>

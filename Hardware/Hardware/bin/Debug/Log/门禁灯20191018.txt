@@ -1,0 +1,3 @@
+2019-10-18 14:35:53  打开端口失败:端口“COM7”不存在。 Stack(WriteModuleLogLn CommOpen )
+2019-10-18 14:36:37  打开端口失败:端口“COM7”不存在。 Stack(WriteModuleLogLn CommOpen )
+2019-10-18 14:36:44  打开端口失败:端口“COM7”不存在。 Stack(WriteModuleLogLn CommOpen )

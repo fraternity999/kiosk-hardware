@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConfigurationList>
+    <Value name="defaultSortField" dataType="string">dateTime</Value>
+    <Value name="defaultSortOrder" dataType="string">asc</Value>
+    <Value name="PowerCycleWaitTime" dataType="string">45000</Value>
+    <Value name="ShowPowerCycleMsgRestoreNetworkSettings" dataType="boolean">true</Value>
+    <Value name="PQBasicColorsBaseFileName" dataType="string">LJCM401_bas_colors_</Value>
+    <Value name="PQCustomColorsBaseFileName" dataType="string">LJCM401_cus_colors_</Value>
+    <Value name="ShowCleaningPage" dataType="boolean">true</Value>
+    <Value name="DisplayHiddenErrorLogPage" dataType="boolean">true</Value>
+    <Value name="HideProductRegistrationLink" dataType="boolean">true</Value>
+    <Value name="supportBlockFaxUI" dataType="boolean">true</Value>
+    <Value name="useJunkFaxString" dataType="boolean">true</Value>
+    <Value name="ShowEventLogDescriptionColumn" dataType="boolean">false</Value>
+    <Value name="SupportsHelp" dataType="boolean">false</Value>
+  </ConfigurationList>
+  <!-- The first product, which matches the directory name, MUST be present to cover the case of initial communication
+       failure with the device -->
+  <ViewList modelName="HP LaserJet 400 M401a, HP LaserJet 400 M401d, HP LaserJet 400 M401n, HP LaserJet 400 M401dn, HP LaserJet 400 M401dw">
+    <ViewDisplay name="GuidoView">
+      <DisplayContextList>
+        <DisplayContext name="StandardDisplay">
+          <Category id="1" title="res_alerts" description="res_alerts" displayContextLink="StandardDisplay">
+            <Position id="0" title="res_Setup_Status_Alerts" description="res_Set_up_options_for" displayContextLink="StandardDisplay">
+              <Page name="AlertsConfig" />
+            </Position>
+          </Category>
+        </DisplayContext>
+      </DisplayContextList>
+    </ViewDisplay>
+  </ViewList>
+  <PageList>
+    <Page name="DefaultPage">
+      <Content assembly="HPLaserJet" needDevice="true" pageName="DeviceStatus">HPLaserJet.CL20DeviceStatusControl</Content>
+    </Page>
+    <Page name="DeviceStatus">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.CL20DeviceStatusControl</Content>
+    </Page>
+    <Page name="SuppliesStatus">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.CL20SuppliesStatusControl</Content>
+    </Page>
+    <Page name="ViewConfiguration">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.DeviceConfigControl</Content>
+    </Page>
+    <Page name="NetworkConfig">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.NetworkConfig_v4v6_Control</Content>
+    </Page>
+    <Page name="PrintInfoPages">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.PrintInfoPagesControl</Content>
+    </Page>
+    <Page name="ColorUsageJobLog">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.ColorUsageJobLogControl</Content>
+    </Page>
+    <Page name="EventLog">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.EventLogControl</Content>
+    </Page>
+    <Page name="AlertsConfig">
+      <Content assembly="Alerts" needStartupModules="true" needDevice="true">Com.HP.App.Alerts.AlertsConfigControlAbstractModel</Content>
+    </Page>
+    <Page name="EmailAlertsConfig">
+      <Content assembly="Alerts" needStartupModules="true" needDevice="true">Com.HP.App.Alerts.EmailAlertsControlAbstractModel</Content>
+    </Page>
+    <Page name="FaxTasks">
+      <Content assembly="HPLaserJetMFP" needStartupModules="true" needDevice="true">HPLaserJetMFP.FaxTasksControl</Content>
+      <PasswordPage assembly="HPLaserJet">HPLaserJet.PasswordForm</PasswordPage>
+    </Page>
+    <Page name="FaxPhoneBook">
+      <Content assembly="HPLaserJetMFP" needDevice="true">HPLaserJetMFP.FaxPhoneBookControl</Content>
+      <PasswordPage assembly="HPLaserJet">HPLaserJet.PasswordForm</PasswordPage>
+    </Page>
+    <Page name="FaxSendLog">
+      <Content assembly="HPLaserJetMFP" needStartupModules="true" needDevice="true">HPLaserJetMFP.FaxSendLogControl</Content>
+    </Page>
+    <Page name="FaxReceiveLog">
+      <Content assembly="HPLaserJetMFP" needStartupModules="true" needDevice="true">HPLaserJetMFP.FaxReceiveLogControl</Content>
+      <PasswordPage assembly="HPLaserJet">HPLaserJet.PasswordForm</PasswordPage>
+    </Page>
+    <Page name="JunkFaxes">
+      <Content assembly="HPLaserJetMFP" needDevice="true">HPLaserJetMFP.FaxJunkCSID</Content>
+      <PasswordPage assembly="HPLaserJet">HPLaserJet.PasswordForm</PasswordPage>
+    </Page>
+    <Page name="DemoPages">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.DemoPagesControl</Content>
+    </Page>
+    <Page name="ColorPrintingTools">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.ColorPrintingToolsControl</Content>
+    </Page>
+    <Page name="DeviceInformation">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.DeviceInformationControl</Content>
+    </Page>
+    <Page name="PaperHandling">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.PaperHandlingControl</Content>
+    </Page>
+    <Page name="PrintQuality">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.PrintQualityControl</Content>
+    </Page>
+    <Page name="PrintDensity">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.PrintDensityControl</Content>
+    </Page>
+    <Page name="PaperType">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.PaperTypeControl</Content>
+    </Page>
+    <Page name="SystemSetup">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.SystemSetupControl</Content>
+    </Page>
+    <Page name="Service">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.ServiceControl</Content>
+    </Page>
+    <Page name="DevicePolling">
+      <Content assembly="HPLaserJet" needStartupModules="true" needDevice="true">HPLaserJet.DevicePollingControl</Content>
+    </Page>
+    <Page name="SaveRestoreSettings">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.SaveRestoreSettings</Content>
+    </Page>
+    <Page name="Printing">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.PrintingControl</Content>
+    </Page>
+    <Page name="PCL">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.PCL5cControl</Content>
+    </Page>
+    <Page name="PostScript">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.PostscriptControl</Content>
+    </Page>
+    <Page name="IPv4Configuration">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.IPv4ConfigurationControl</Content>
+    </Page>
+    <Page name="IPv6Configuration">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.IPv6ConfigurationControl</Content>
+    </Page>
+    <Page name="NetworkIdentification">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.NetworkIdentificationControl</Content>
+    </Page>
+    <Page name="AdvancedNetworking">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.AdvancedNetworkSettingsControl</Content>
+    </Page>
+    <Page name="SNMP">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.SNMPControl</Content>
+    </Page>
+    <Page name="Password">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.PasswordControl</Content>
+    </Page>
+    <Page name="SuppliesOrdering">
+      <Content assembly="HPLaserJet" needDevice="true">HPLaserJet.DeviceStatusControl</Content>
+    </Page>
+  </PageList>
+</UIConfiguration>

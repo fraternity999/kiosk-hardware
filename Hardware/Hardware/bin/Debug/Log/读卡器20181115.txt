@@ -1,0 +1,2 @@
+2018-11-15 15:33:10  F6 Open Stack(WriteModuleLogLn AddLog )
+2018-11-15 15:33:10  打开端口失败,端口：COM3 错误原因：指定的COM端口不存在或者被其他程序占用 Stack(WriteModuleLogLn AddLog )

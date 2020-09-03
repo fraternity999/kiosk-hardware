@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        html, body
+        {
+            width: 270px;
+        }
+        #div_print
+        {
+            width: 270px;
+            word-break: break-all;
+            display: block;
+            font-size:50px;
+         
+        }
+    #lineContent
+    {
+       text-align:left;
+       font-size:15px;
+       margin-top:0px;
+       margin-bottom:0px;
+    }
+     #linetitle
+     {
+       text-align:left;
+       font-size:15px;
+       margin-top:10px;
+       margin-bottom:10px;
+       font-weight:bold;
+     }
+    </style>
+</head>
+<body>
+    <div id="div_print">
+	
+        ÎÞÊý¾Ý...
+    </div>
+</body>
+</html>

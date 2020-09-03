@@ -1,0 +1,2 @@
+2020-09-01 22:52:33  打开端口失败:端口“COM7”不存在。 Stack(WriteModuleLogLn AddLogLn )
+2020-09-01 23:01:23  打开端口失败:端口“COM7”不存在。 Stack(WriteModuleLogLn AddLogLn )

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceDefinition>
+  <FileFormat>
+    <Format>Device Definition</Format>
+    <Version>1.1</Version>
+  </FileFormat>
+  <ModelList>
+    <Model inherits="HP LaserJet">HP LaserJet MFP</Model>
+  </ModelList>
+  <ConstructorList>
+    <ValueList>
+      <!-- value for Send Fax App interface -->
+      <Value name="FaxPhoneBookData" dataType="string">Com.HP.App.HPFaxUtilities.FaxPhoneBookRetriever, HPFaxUtilities</Value>
+      <!-- flags/values for notifications -->
+      <Value name="supportsNotifications" dataType="boolean">true</Value>
+      <Value name="supportsScanTo" dataType="boolean">true</Value>
+      <Value name="scanToPostURL" dataType="string">/hp/device/set_config.html</Value>
+      <!-- timeout value for reading/setting phonebook entries -->
+      <Value name="PhoneBookTimeout" dataType="integer">125000</Value>
+      <!-- values for fax logs -->
+      <Value name="NumMinutes" dataType="integer">600000</Value>
+      <Value name="FaxLogFolderPrefix" dataType="string">FaxLogs</Value>
+      <Value name="ImageFilter" dataType="string">jpg,pdf</Value>
+    </ValueList>
+    <ObjectList></ObjectList>
+  </ConstructorList>
+  <ObjectList></ObjectList>
+</DeviceDefinition>

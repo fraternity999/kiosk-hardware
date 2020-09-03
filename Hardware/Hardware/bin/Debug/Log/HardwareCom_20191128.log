@@ -1,0 +1,210 @@
+2019-11-28 11:37:52 ---------Init-------------
+2019-11-28 11:37:52 Init begin
+2019-11-28 11:37:52 InitReceipt begin
+2019-11-28 11:37:52 InitReceipt success
+2019-11-28 11:37:52 InitScannner begin
+2019-11-28 11:37:52 InitScannner fail
+2019-11-28 11:37:52 InitReadCard begin
+2019-11-28 11:37:53 InitReadCard fail
+2019-11-28 11:37:53 InitMJ begin
+2019-11-28 11:37:53 InitMJ fail
+2019-11-28 11:37:53 InitLock begin
+2019-11-28 11:37:53 InitLock fail
+2019-11-28 11:37:53 InitTakePhoto begin
+2019-11-28 11:37:53 InitTopTakePhoto fail
+2019-11-28 11:37:53 InitCash begin, type=MPOST
+2019-11-28 11:37:53 InitCash end
+2019-11-28 11:37:53 InitLaserPrinter
+2019-11-28 11:37:53 InitLaserPrinter Success
+2019-11-28 11:37:53 InitPinPad
+2019-11-28 11:37:53 InitPinPad Success
+2019-11-28 11:37:53 Init end
+2019-11-28 11:37:55 凭条打印机检测状态 ReceiptStatus
+2019-11-28 11:37:55 checkResult=打印机未连接或未上电(1)
+2019-11-28 11:37:55 resultContent= DEVERROR
+2019-11-28 13:43:52 ---------Init-------------
+2019-11-28 13:43:52 Init begin
+2019-11-28 13:43:52 InitReceipt begin
+2019-11-28 13:43:52 InitReceipt success
+2019-11-28 13:43:52 InitScannner begin
+2019-11-28 13:43:52 InitScannner fail
+2019-11-28 13:43:52 InitReadCard begin
+2019-11-28 13:43:52 InitReadCard fail
+2019-11-28 13:43:52 InitMJ begin
+2019-11-28 13:43:52 InitMJ fail
+2019-11-28 13:43:52 InitLock begin
+2019-11-28 13:43:52 InitLock fail
+2019-11-28 13:43:52 InitTakePhoto begin
+2019-11-28 13:43:52 InitTopTakePhoto fail
+2019-11-28 13:43:52 InitCash begin, type=MPOST
+2019-11-28 13:43:52 InitCash end
+2019-11-28 13:43:52 InitReceipt  ex
+2019-11-28 13:43:52 失败原因：找不到方法:“Boolean SunRise.HOSP.PrinterStatus.XHPrinterStatus.Init(SunRise.HOSP.PrinterStatus.Printer, System.String, System.String)”。
+2019-11-28 13:43:52 InitPinPad
+2019-11-28 13:43:52 InitPinPad Success
+2019-11-28 13:43:52 Init end
+2019-11-28 13:43:57 ------------------------开始读身份证0
+2019-11-28 13:43:57 ---------ShenFenZhengHardware-------------
+2019-11-28 13:43:57 -----开始读身份证1
+2019-11-28 13:43:57 扫描身份证失败：打开二代证设备失败
+2019-11-28 13:43:57 ! 打开二代证设备失败
+2019-11-28 13:43:57 -----结束读身份证0
+2019-11-28 13:43:58 凭条打印机检测状态 ReceiptStatus
+2019-11-28 13:43:58 checkResult=打印机未连接或未上电
+2019-11-28 13:43:58 resultContent= DEVERROR
+2019-11-28 13:47:01 ---------Init-------------
+2019-11-28 13:47:01 Init begin
+2019-11-28 13:47:01 InitReceipt begin
+2019-11-28 13:47:01 InitReceipt success
+2019-11-28 13:47:01 InitScannner begin
+2019-11-28 13:47:01 InitScannner fail
+2019-11-28 13:47:01 InitReadCard begin
+2019-11-28 13:47:02 InitReadCard fail
+2019-11-28 13:47:02 InitMJ begin
+2019-11-28 13:47:02 InitMJ fail
+2019-11-28 13:47:02 InitLock begin
+2019-11-28 13:47:02 InitLock fail
+2019-11-28 13:47:02 InitTakePhoto begin
+2019-11-28 13:47:02 InitTopTakePhoto fail
+2019-11-28 13:47:02 InitCash begin, type=MPOST
+2019-11-28 13:47:02 InitCash end
+2019-11-28 13:47:02 InitReceipt  ex
+2019-11-28 13:47:02 失败原因：找不到方法:“Boolean SunRise.HOSP.PrinterStatus.XHPrinterStatus.Init(SunRise.HOSP.PrinterStatus.Printer, System.String, System.String)”。
+2019-11-28 13:47:02 InitPinPad
+2019-11-28 13:47:02 InitPinPad Success
+2019-11-28 13:47:02 Init end
+2019-11-28 13:48:29 ---------Init-------------
+2019-11-28 13:48:29 Init begin
+2019-11-28 13:48:29 InitReceipt begin
+2019-11-28 13:48:29 InitReceipt success
+2019-11-28 13:48:29 InitScannner begin
+2019-11-28 13:48:29 InitScannner fail
+2019-11-28 13:48:29 InitReadCard begin
+2019-11-28 13:48:30 InitReadCard fail
+2019-11-28 13:48:30 InitMJ begin
+2019-11-28 13:48:30 InitMJ fail
+2019-11-28 13:48:30 InitLock begin
+2019-11-28 13:48:30 InitLock fail
+2019-11-28 13:48:30 InitTakePhoto begin
+2019-11-28 13:48:30 InitTopTakePhoto fail
+2019-11-28 13:48:30 InitCash begin, type=MPOST
+2019-11-28 13:48:30 InitCash end
+2019-11-28 13:48:30 InitReceipt  ex
+2019-11-28 13:48:30 失败原因：找不到方法:“Boolean SunRise.HOSP.PrinterStatus.XHPrinterStatus.Init(SunRise.HOSP.PrinterStatus.Printer, System.String, System.String)”。
+2019-11-28 13:48:30 InitPinPad
+2019-11-28 13:48:30 InitPinPad Success
+2019-11-28 13:48:30 Init end
+2019-11-28 13:49:36 ---------Init-------------
+2019-11-28 13:49:36 Init begin
+2019-11-28 13:49:36 InitReceipt begin
+2019-11-28 13:49:36 InitReceipt success
+2019-11-28 13:49:36 InitScannner begin
+2019-11-28 13:49:36 InitScannner fail
+2019-11-28 13:49:36 InitReadCard begin
+2019-11-28 13:49:36 InitReadCard fail
+2019-11-28 13:49:36 InitMJ begin
+2019-11-28 13:49:36 InitMJ fail
+2019-11-28 13:49:36 InitLock begin
+2019-11-28 13:49:36 InitLock fail
+2019-11-28 13:49:36 InitTakePhoto begin
+2019-11-28 13:49:36 InitTopTakePhoto fail
+2019-11-28 13:49:36 InitCash begin, type=MPOST
+2019-11-28 13:49:36 InitCash end
+2019-11-28 13:49:36 InitReceipt  ex
+2019-11-28 13:49:36 失败原因：找不到方法:“Boolean SunRise.HOSP.PrinterStatus.XHPrinterStatus.Init(SunRise.HOSP.PrinterStatus.Printer, System.String, System.String)”。
+2019-11-28 13:49:36 InitPinPad
+2019-11-28 13:49:36 InitPinPad Success
+2019-11-28 13:49:36 Init end
+2019-11-28 13:50:09 ---------Init-------------
+2019-11-28 13:50:09 Init begin
+2019-11-28 13:50:09 InitReceipt begin
+2019-11-28 13:50:09 InitReceipt success
+2019-11-28 13:50:09 InitScannner begin
+2019-11-28 13:50:09 InitScannner fail
+2019-11-28 13:50:09 InitReadCard begin
+2019-11-28 13:50:09 InitReadCard fail
+2019-11-28 13:50:09 InitMJ begin
+2019-11-28 13:50:09 InitMJ fail
+2019-11-28 13:50:09 InitLock begin
+2019-11-28 13:50:09 InitLock fail
+2019-11-28 13:50:09 InitTakePhoto begin
+2019-11-28 13:50:09 InitTopTakePhoto fail
+2019-11-28 13:50:09 InitCash begin, type=MPOST
+2019-11-28 13:50:09 InitCash end
+2019-11-28 13:50:09 InitLaserPrinter
+2019-11-28 13:50:09 InitReceipt  ex
+2019-11-28 13:50:09 失败原因：找不到方法:“Boolean KyoceraMonitor.KyoceraMonitorStatus.Init(System.String ByRef, System.String, System.String)”。
+2019-11-28 13:50:09 InitPinPad
+2019-11-28 13:50:09 InitPinPad Success
+2019-11-28 13:50:09 Init end
+2019-11-28 13:50:13 ---------LaserPrintStatusHardware-------------
+2019-11-28 13:50:46 ---------Init-------------
+2019-11-28 13:50:46 Init begin
+2019-11-28 13:50:46 InitReceipt begin
+2019-11-28 13:50:46 InitReceipt success
+2019-11-28 13:50:46 InitScannner begin
+2019-11-28 13:50:46 InitScannner fail
+2019-11-28 13:50:46 InitReadCard begin
+2019-11-28 13:50:46 InitReadCard fail
+2019-11-28 13:50:46 InitMJ begin
+2019-11-28 13:50:46 InitMJ fail
+2019-11-28 13:50:46 InitLock begin
+2019-11-28 13:50:46 InitLock fail
+2019-11-28 13:50:46 InitTakePhoto begin
+2019-11-28 13:50:46 InitTopTakePhoto fail
+2019-11-28 13:50:46 InitCash begin, type=MPOST
+2019-11-28 13:50:46 InitCash end
+2019-11-28 13:50:46 InitLaserPrinter
+2019-11-28 13:50:46 InitReceipt  ex
+2019-11-28 13:50:46 失败原因：找不到方法:“Boolean KyoceraMonitor.KyoceraMonitorStatus.Init(System.String ByRef, System.String, System.String)”。
+2019-11-28 13:50:46 InitPinPad
+2019-11-28 13:50:46 InitPinPad Success
+2019-11-28 13:50:46 Init end
+2019-11-28 13:50:49 ---------LaserPrintStatusHardware-------------
+2019-11-28 13:51:28 ---------Init-------------
+2019-11-28 13:51:28 Init begin
+2019-11-28 13:51:28 InitReceipt begin
+2019-11-28 13:51:28 InitReceipt success
+2019-11-28 13:51:28 InitScannner begin
+2019-11-28 13:51:28 InitScannner fail
+2019-11-28 13:51:28 InitReadCard begin
+2019-11-28 13:51:29 InitReadCard fail
+2019-11-28 13:51:29 InitMJ begin
+2019-11-28 13:51:29 InitMJ fail
+2019-11-28 13:51:29 InitLock begin
+2019-11-28 13:51:29 InitLock fail
+2019-11-28 13:51:29 InitTakePhoto begin
+2019-11-28 13:51:29 InitTopTakePhoto fail
+2019-11-28 13:51:29 InitCash begin, type=MPOST
+2019-11-28 13:51:29 InitCash end
+2019-11-28 13:51:29 InitLaserPrinter
+2019-11-28 13:51:29 InitReceipt  ex
+2019-11-28 13:51:29 失败原因：找不到方法:“Boolean KyoceraMonitor.KyoceraMonitorStatus.Init(System.String ByRef, System.String, System.String)”。
+2019-11-28 13:51:29 InitPinPad
+2019-11-28 13:51:29 InitPinPad Success
+2019-11-28 13:51:29 Init end
+2019-11-28 13:51:31 ---------LaserPrintStatusHardware-------------
+2019-11-28 14:12:42 ---------Init-------------
+2019-11-28 14:12:42 Init begin
+2019-11-28 14:12:42 InitReceipt begin
+2019-11-28 14:12:42 InitReceipt success
+2019-11-28 14:12:42 InitScannner begin
+2019-11-28 14:12:42 InitScannner fail
+2019-11-28 14:12:42 InitReadCard begin
+2019-11-28 14:12:43 InitReadCard fail
+2019-11-28 14:12:43 InitMJ begin
+2019-11-28 14:12:43 InitMJ fail
+2019-11-28 14:12:43 InitLock begin
+2019-11-28 14:12:43 InitLock fail
+2019-11-28 14:12:43 InitTakePhoto begin
+2019-11-28 14:12:43 InitTopTakePhoto fail
+2019-11-28 14:12:43 InitCash begin, type=MPOST
+2019-11-28 14:12:43 InitCash end
+2019-11-28 14:12:43 InitLaserPrinter
+2019-11-28 14:12:43 InitLaserPrinter Success
+2019-11-28 14:12:43 InitPinPad
+2019-11-28 14:12:43 InitPinPad Success
+2019-11-28 14:12:43 Init end
+2019-11-28 14:12:45 ---------LaserPrintStatusHardware-------------
+2019-11-28 14:12:45 InitLaserPrinter
+2019-11-28 14:12:45 InitLaserPrinter Success

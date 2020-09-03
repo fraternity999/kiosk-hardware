@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<DriverList>
+	<Model name="HP LaserJet MFP" inherits="HP LaserJet">
+		<Driver>HP LaserJet MFP</Driver>
+	</Model>
+</DriverList>

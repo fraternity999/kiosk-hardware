@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceDefinition>
+  <FileFormat>
+    <Format>Device Definition</Format>
+    <Version>1.1</Version>
+  </FileFormat>
+  <ModelList>
+    <Model inherits="HP LaserJet MFP">HP LaserJet 400 M401</Model>
+  </ModelList>
+  <ConstructorList>
+    <ValueList>
+      <Value name="deviceVersion" dataType="string">001.021.00944</Value>
+      <Value name="model" dataType="string">$$Model$$</Value>
+      <Value name="supportsAlerts" dataType="boolean">true</Value>
+      <Value name="supportsPrintingErrorAlerts" dataType="boolean">true</Value>
+      <Value name="supportsPrintingWarningAlerts" dataType="boolean">false</Value>
+      <Value name="supportsSuppliesErrorAlerts" dataType="boolean">true</Value>
+      <Value name="supportsSuppliesWarningAlerts" dataType="boolean">true</Value>
+      <Value name="supportsSPSAlerts" dataType="boolean">true</Value>
+      <Value name="supportsEmailAlerts" dataType="boolean">true</Value>
+      <Value name="supportsScanToErrorAlerts" dataType="boolean">false</Value>
+      <!-- Poll rate for Notifications for this device. Scan-to and Fax (in Seconds) -->
+      <Value name="NotificationPollRate" dataType="string">6</Value>
+      <!-- Poll rate for Alerts for this device. (in Seconds)  -->
+      <Value name="AlertPollRate" dataType="string">10</Value>
+      <Value name="DefaultAlertPicture" dataType="string">HP LaserJet 400 M401.bmp</Value>
+      <Value name="useDeviceModel" dataType="boolean">true</Value>
+      <Value name="isSystrayOn" dataType="boolean">false</Value>
+      <Value name="enableNetworkReceiveToPC" dataType="boolean">true</Value>
+      <Value name="disableSystrayCheckbox" dataType="boolean">true</Value>
+      <Value name="connectionTypeOverride" dataType="string">NONE</Value>
+      <Value name="supportsInstantSupport" dataType="boolean">true</Value>
+      <Value name="supportsSuppliesOrdering" dataType="boolean">true</Value>
+      <Value name="supportsTMCarePack" dataType="boolean">false</Value>
+      <Value name="useTestDfAResponseTicket" dataType="boolean">false</Value>
+      <Value name="defaultSupportURL" dataType="string">http://www.hp.com/support/ljcm1410series</Value>
+      <Value name="hubLinkVersion" dataType="string">2.0</Value>
+      <Value name="hubLinkProductID" dataType="string">5096252</Value>
+      <Value name="defaultRegisterURL" dataType="string">http://register.hp.com</Value>
+      <Value name="BasicColorMatchRegistryKey" dataType="string">SOFTWARE\Hewlett-Packard\BCM</Value>
+      <Value name="BasicColorMatchURL" dataType="string">http://www.hp.com/go/basiccolormatch</Value>
+      <Value name="disableSNPAlerts" dataType="boolean">true</Value>
+      <Value name="SNPAlerts_driverRegBase" dataType="string">SYSTEM\CurrentControlSet\Control\Print\Printers\</Value>
+      <Value name="SNPAlerts_printerDriverData" dataType="string">\PrinterDriverData</Value>
+      <Value name="SNPAlerts_notifyEventSetting" dataType="string">SSNPNotifyEventSetting</Value>
+      <Value name="dataModelName" dataType="string">LedmXmlObjectManager</Value>
+      <Value name="documentationRegKey" dataType="string">SOFTWARE\Hewlett-Packard\HP_LaserJet_400_M401</Value>
+      <Value name="SuppliesDocumentationRegKey" dataType="string">SOFTWARE\Hewlett-Packard\SuppliesCHM</Value>
+    </ValueList>
+    <ObjectList />
+  </ConstructorList>
+  <ObjectList />
+</DeviceDefinition>

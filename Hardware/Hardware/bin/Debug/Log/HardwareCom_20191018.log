@@ -1,0 +1,29 @@
+2019-10-18 14:35:53 ---------Init-------------
+2019-10-18 14:35:53 Init begin
+2019-10-18 14:35:53 InitMJ begin
+2019-10-18 14:35:53 InitMJ fail
+2019-10-18 14:35:53 InitLock begin
+2019-10-18 14:35:53 InitLock fail
+2019-10-18 14:35:53 InitCash begin, type=MPOST
+2019-10-18 14:35:53 InitCash end
+2019-10-18 14:35:53 Init end
+2019-10-18 14:36:37 ---------Init-------------
+2019-10-18 14:36:37 Init begin
+2019-10-18 14:36:37 InitMJ begin
+2019-10-18 14:36:37 InitMJ fail
+2019-10-18 14:36:37 InitLock begin
+2019-10-18 14:36:37 InitLock fail
+2019-10-18 14:36:37 InitCash begin, type=BA08
+2019-10-18 14:36:37 InitCash end
+2019-10-18 14:36:37 Init end
+2019-10-18 14:36:40 打开纸币器出现警告或错误：通信超时
+2019-10-18 14:36:42 关闭纸币器出现警告或错误：发送数据失败
+2019-10-18 14:36:44 ---------Init-------------
+2019-10-18 14:36:44 Init begin
+2019-10-18 14:36:44 InitMJ begin
+2019-10-18 14:36:44 InitMJ fail
+2019-10-18 14:36:44 InitLock begin
+2019-10-18 14:36:44 InitLock fail
+2019-10-18 14:36:44 InitCash begin, type=BA08
+2019-10-18 14:36:44 InitCash end
+2019-10-18 14:36:44 Init end
