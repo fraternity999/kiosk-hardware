@@ -16,3 +16,13 @@ E:\自助机\Hardware\Hardware\Hardware\obj\Debug\Hardware.csprojResolveAssembly
 E:\自助机\Hardware\Hardware\Hardware\obj\Debug\Hardware.Form1.resources
 E:\自助机\Hardware\Hardware\Hardware\obj\Debug\Hardware.Properties.Resources.resources
 E:\自助机\Hardware\Hardware\Hardware\obj\Debug\Hardware.csproj.GenerateResource.Cache
+E:\自助机\kiosk-hardware\Hardware\Hardware\obj\Debug\Hardware.exe
+E:\自助机\kiosk-hardware\Hardware\Hardware\obj\Debug\Hardware.pdb
+E:\自助机\kiosk-hardware\Hardware\Hardware\bin\Debug\Hardware.exe
+E:\自助机\kiosk-hardware\Hardware\Hardware\bin\Debug\Hardware.pdb
+E:\自助机\kiosk-hardware\Hardware\Hardware\obj\Debug\Hardware.csprojAssemblyReference.cache
+E:\自助机\kiosk-hardware\Hardware\Hardware\obj\Debug\Hardware.Form1.resources
+E:\自助机\kiosk-hardware\Hardware\Hardware\obj\Debug\Hardware.Properties.Resources.resources
+E:\自助机\kiosk-hardware\Hardware\Hardware\obj\Debug\Hardware.csproj.GenerateResource.cache
+E:\自助机\kiosk-hardware\Hardware\Hardware\obj\Debug\Hardware.csproj.CoreCompileInputs.cache
+E:\自助机\kiosk-hardware\Hardware\Hardware\obj\Debug\Hardware.csproj.CopyComplete
