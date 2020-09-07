@@ -18,6 +18,9 @@ namespace Hardware
             }else if (param.IndexOf("READCARDMOVECARDTORF")>0)
             {
                 return move();
+            }else if (param.IndexOf("READCARDREADRFCARD") > 0)
+            {
+                return read();
             }
 
             return "";
@@ -38,6 +41,11 @@ namespace Hardware
         public static string move()
         {
             return @"<return name=""READCARDMOVECARDTORF""><arguments><string id = ""ERROR"">SUCCESS</string></arguments></return>";
+        }
+
+        public static string read()
+        {
+            return @"<return name=""READCARDREADRFCARD""><arguments><string id = ""ERROR"">SUCCESS</string><string id = ""CARDNO"">12345678</string></arguments></return>";
         }
     }
 }
